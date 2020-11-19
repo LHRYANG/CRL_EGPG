@@ -1,0 +1,21 @@
+{
+  "model_name":"Seq2Seq",
+  "embedding_dim": 300,
+  "vocabulary_dim": 23922,
+  "encoder":{
+    "hidden_dim": 512,
+    "input_dim": 300,
+    "num_layers": 1,
+    "bidirectional": 1,
+    "final_out_dim": 1024
+  },
+  "decoder":{
+    "hidden_dim": 512,
+    "input_dim": 1324
+  },
+
+  "style_attn": {
+    "style_in": 768,
+    "style_out": 300
+  }
+}
