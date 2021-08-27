@@ -1,5 +1,5 @@
 # EGPG_CC
-Implementation of EGPG
+Implementation of Contrastive Representation Learning for Exemplar-Guided ParaphraseGeneration
 
 ## How to train
 1. download the dataset from [here](https://drive.google.com/drive/folders/1xkCtRnbeKPg_-0qR7j8jtzV8lfEcZGJm?usp=sharing) and put it to project directory. </br>
