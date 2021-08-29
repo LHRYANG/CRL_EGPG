@@ -1,4 +1,4 @@
-# EGPG_CC
+# CRL_EGPG
 Pytorch Implementation of **Cntrastive Representation Learning for Exemplar-Guided Paraphrase Generation**
 
 ## How to train
