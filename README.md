@@ -9,7 +9,7 @@ We use contrastive loss implemented by [HobbitLong](https://github.com/HobbitLon
 You can directly use preprocessed dataset`(data/: QQP-Pos, data2: ParaNMT)` </br>
 Or process them `(Quora and Para)` by your own through `quora_process.py` and `para_process.py` respectively.</br>
 If you take the second method, you need to set the variable `text_path` in the above two programs.
-2. `python train.py --datasets quora --model_save_path directory_to_save_model`
+2. `python train.py --dataset quora --model_save_path directory_to_save_model`
 ## How to evaluate
 
 1. Firstly, generate the test target sentences by running </br>
